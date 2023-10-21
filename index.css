@@ -61,6 +61,9 @@ text-align: center;
 .section5{
     margin-top: 60px;
 }
+.section5 button{
+    margin-bottom: 15px;
+}
 .section6{
     background-image: url(img/gallery/vidoe_more.png);
     width: 100%;
@@ -113,14 +116,24 @@ text-align: center;
         display: block;
     }
     .section1{
-        height: 70vh;
+        height: 120vh;
     }
     .products{
         position: relative;
         left: 150px;
     }
+    .section6 h5{
+        font-size: 15px;
+    }
+    .section6{
+        height: 30vh;
+        
+    }
+    .section6 .icon{
+        width: calc(100%/3);
+       }
  }  
- @media only screen and (max-width:556px)and (min-width:300px){
+ @media only screen and (max-width:556px)and (min-width:200px){
     .section1 h1{
         font-size: 50px;
     }
@@ -128,9 +141,38 @@ text-align: center;
         display: none;
     }
     .section1{
-        height: 80vh;
+        height: 100vh;
     }
+    .section6 h5{
+        font-size: 15px;
+    }
+    .section6{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .section6 p{
+        font-size: 8px;
+    }
+   .fa-solid{
+    font-size: 20px;
+   }
+   .section6 .icon{
+    width: calc(100%/3);
+   }
  }  
+ @media only screen and (min-width:992px) and (max-width:1200px){
+    .section6 .icon{
+        width: calc(100%/3);
+       }
+       .section6 h5{
+        font-size: 25px;
+    }
+    .section6{
+        height: 30vh;
+        
+    }
+ }
 
 
     
